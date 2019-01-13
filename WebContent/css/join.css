@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* 헤더 슬로건 */
+#wrap {width:640px !important; margin:0 auto; text-align:left; box-sizing:border-box;}
+#header{padding-bottom:0px !important;}
+
+
+/* 탭 메뉴*/
+#header .snb > li {float:left; width:220px; height:60px; box-sizing:border-box; font-weight:normal; letter-spacing:-1px; text-align:center; font-family: 'Malgun Gothic','맑은고딕', '돋움', Dotum, sans-serif;}
+#header .snb > li.on > a {padding-top:12px; font-size:22px; font-weight:bold; color:#fff; background-color:#3399ff;}
+
+#header .snb > .person.on {width:640px;}
+
+
+/* 회원가입 공통 */
+.notice_msg {margin-bottom: 5px; padding-bottom: 10px; border: 1px solid}
+.mbrRegist .row_group {position:relative; width:640px; padding:0 29px; margin-bottom:10px; border:1px solid #e2e6e9; background-color:#fff; box-sizing:border-box;}
+.mbrRegist .row_group h4 {font-size:18px; color:#333; margin-bottom:19px; padding-top:35px;}
+.mbrRegist .row_group .subTx {position:absolute; right:30px; top:41px; font-size:13px; color:#afb0b2;}
+.mbrRegist .row_group .subTx strong{font-size:16px; color:#ff3333;}
+
+.mbrRegist .row {position:relative; display:block; margin-bottom:10px; font-size:0;}
+
+.col_1 {position:relative; width:100%; height:62px; padding:0 12px; box-sizing:border-box; border:1px solid #ddd;}
+.mbrRegist .col_2 {position:relative; width:100%; height:62px; padding:0 12px; box-sizing:border-box; border:1px solid #ddd;}
+
+.mbrRegist input[type=text], .mbrRegist input[type=password] {display:block; width:100%; height:60px; border:0; outline:0; box-sizing:border-box; font-size:16px; color:#333; font-family:'Malgun Gothic';}
+
+/* 비밀번호 */
+.mbrRegist .mbr_passwd {z-index:20;}
+.mbrRegist .mbr_passwd .btnHelp {position:absolute; right:8px; top:22px; width:20px; height:20px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -343px;}
+.mbrRegist .mbr_passwd .col_3 {position:absolute; right:-61px; top:0; width:61px; height:62px;}
+.mbrRegist .mbr_passwd .lyHelp {display:none; z-index:9010; left:55px; top:-180px; width:440px; padding:14px 12px 15px 12px}
+.jkJoin_company .mbrRegist .mbr_passwd .lyHelp {left:-180px;}
+.jkJoin_searchfirm .mbrRegist .mbr_passwd .lyHelp {left:-180px;}
+.jkJoin_hh .mbrRegist .mbr_passwd .lyHelp {left:-180px;}
+.jkJoin_edu .mbrRegist .mbr_passwd .lyHelp {left:-180px;}
+.mbrRegist .mbr_passwd .lyHelp dl dt {margin-bottom:10px; font-size:14px; color:#333; font-weight:normal;}
+.mbrRegist .mbr_passwd .lyHelp dl dd {}
+.mbrRegist .mbr_passwd .lyHelp dl ol {padding-left:0; list-style:none;}
+.mbrRegist .mbr_passwd .lyHelp dl ol li {position:relative; margin-top:8px; padding-left:13px; font-size:13px; color:#484848;}
+.mbrRegist .mbr_passwd .lyHelp dl ol li:before {content:''; display:block; position:absolute; left:4px; top:8px; width:2px; height:2px; background-color:#747474;}
+.mbrRegist .mbr_passwd .lyHelp dl ol li:first-child {margin-top:0;}
+.mbrRegist .mbr_passwd .lyHelp:after {content:''; position:absolute; right:14px; bottom:-9px; width:16px; height:9px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -46px;}
+.mbrRegist .mbrBtnAuth {display:block; position:absolute; right:0; top:0; width:61px; height:62px; vertical-align:top;}
+.mbrRegist .mbrBtnAuth span {display:block; width:61px; height:62px; padding:23px 0 0 34px; font-size:14px; color:#999; text-align:left; box-sizing:border-box; letter-spacing:-1px;}
+.mbrRegist .mbrBtnAuth span:before {content:''; position:absolute; left:11px; top:23px; width:20px; height:20px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -373px;}
+.mbrRegist .mbrBtnAuth.selected span {color:#3399ff;}
+.mbrRegist .mbrBtnAuth.selected span:before {background-position:0 -193px;}
+
+/* 생년월일 */
+.mbrRegist .mbr_birthday select {float:left;}
+.mbrRegist .mbr_birthday .delimiter {float:left; margin:8px 2px 0; color:#fff;}
+.mbrRegist .mbr_birthday .col_3 {padding-top:6px;}
+.mbrRegist .mbr_birthday .col_3 input[type=radio] {margin-left:9px; vertical-align:top;}
+.mbrRegist .mbr_birthday .col_3 input[type=radio]:first-child {margin-left:5px;}
+.mbrRegist .mbr_birthday .col_3 label {vertical-align:bottom;}
+
+/* 이메일 */
+.mbrRegist .mbr_email {z-index:10;}
+
+
+/* 휴대폰 */
+.mbrRegist .mbr_phone select {float:left;}
+.mbrRegist .mbr_phone .delimiter {float:left; margin:8px 2px 0; color:#aaa;}
+.mbrRegist .mbr_phone input[type=text] {}
+.mbrRegist .mbr_phone_1 input[type=text] {width:219px;}
+.mbrRegist .mbr_phone .col_3 {position:relative; padding-top:10px;}
+.mbrRegist .mbr_phone .col_3 input[type="checkbox"] {position:absolute; right:0; top:0; width:23px; height:23px; margin:0; padding:0; outline:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none; -webkit-border-radius:0; -moz-border-radius:0; border-radius: 0;}
+.mbrRegist .mbr_phone .col_3 label {position:relative; display:block; height:23px; letter-spacing:-1px; font-size:13px; color:#666; box-sizing:border-box;}
+.mbrRegist .mbr_phone .col_3 label:after {content:''; display:block; position:absolute; right:0; top:0; width:20px; height:20px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -253px;}
+.mbrRegist .mbr_phone .col_3 label.on:after {background-position:0 -253px;}
+.mbrRegist .mbr_phone .buttonSendCertification {display:block; position:absolute; right:0; top:0; width:150px; height:60px; border-left:1px solid #ddd; background-color:#f2f4f7; box-sizing:border-box; text-align:center;}
+.mbrRegist .mbr_phone .buttonSendCertification span {display:block; height:60px; padding-top:18px; box-sizing:border-box; font-size:16px; color:#666; letter-spacing:-1px;}
+
+/* 이메일 */
+.mbrRegist .mbr_email input[type=text]:first-child {margin:0;}
+.mbrRegist .mbr_email .delimiter {float:left; margin:8px 0 0 1px; color:#333;}
+.mbrRegist .mbr_email select {letter-spacing:-1px;}
+.mbrRegist .mbr_email .col_3 {position:relative; padding-top:10px;}
+.mbrRegist .mbr_email .col_3 input[type="checkbox"] {position:absolute; right:0; top:0; width:23px; height:23px; margin:0; padding:0; outline:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none; -webkit-border-radius:0; -moz-border-radius:0; border-radius: 0;}
+.mbrRegist .mbr_email .col_3 label {position:relative; display:block; height:23px; letter-spacing:-1px; font-size:13px; color:#666; box-sizing:border-box;}
+.mbrRegist .mbr_email .col_3 label:after {content:''; display:block; position:absolute; right:0; top:0; width:20px; height:20px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -283px;}
+.mbrRegist .mbr_email .col_3 label.on:after {background-position:0 -253px;}
+
+/* 회원가입 버튼 */
+.mbrRegist .regist_complete {padding:0; border:0; background-color:transparent;}
+.mbrRegist .regist_complete .row {margin-bottom:0;}
+.mbrRegist .mbrBtnRegist {width:100%; padding:26px 0 25px;}
+.mbrRegist .mbrBtnRegist span {margin:0 auto;}
+.mbrRegist .regist_complete .goJoinFaq {display:block; margin:7px 0 0; text-align:right;}
+.mbrRegist .regist_complete .goJoinFaq a {font-family:"Malgun Gothic", "맑은고딕"; font-size:11px; color:#9d9d9d; text-decoration:underline; letter-spacing:-1px;}
+
+/*
+ * Input Component
+ */
+.input {position:relative; display:inline-block; zoom:1; *display:inline; width:100%; height:62px; border:1px solid #ddd; box-sizing:border-box; vertical-align:top; text-align:left; background-color:#fff;}
+.input .icon-search {display:block; position:absolute; right:10px; top:22px; width:18px; height:17px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -166px;}
+.input.error {z-index:1000; border-color:#eb8f8a;}
+.input.focus {z-index:100; border-color:#3399ff;}
+.input div.label,
+.input label {position:absolute; left:15px; top:18px; color:#999; font-size:16px; transition:all .2s ease-out;}
+.input input {display:block; width:100%; height:60px; padding:0 15px; border:0; color:#333; outline:none; box-sizing:border-box; font-size:16px;}
+.input .value {width:100%; height:60px; padding:0 15px; font-size:16px; color:#333;}
+.input.is-label div.label i.icon.required,
+.input.is-label label i.icon.required {margin-left:5px; font-size:16px; color:#ff3333;}
+.input.is-label.is-value {padding-top:19px;}
+.input.is-label.is-value .label,
+.input.is-label.is-value label {top:9px; font-size:11px; color:#a8a8a8;}
+.input.is-label.is-value div.label i.icon.required,
+.input.is-label.is-value label i.icon.required {font-size:11px;}
+.input.is-label.is-value input {height:41px;}
+.input.is-label.is-value .value {height:41px; padding-top:10px; box-sizing:border-box;}
+.input.is-label.focus {padding-top:19px;}
+.input.is-label.focus label {top:9px; font-size:11px;}
+.input.is-label.focus label i.icon.required {font-size:11px;}
+.input.is-label.focus input {height:41px;}
+
+.input .validation {z-index:9100; position:absolute; left:-1px; top:60px; padding:5px 7px 6px; border:1px solid #ffbcb9; background-color:#ffeeec; color:#555; box-sizing:border-box; white-space:nowrap; font-size:12px;}
+.input .validation:after {content:''; display:block; position:absolute; left:9px; top:-11px; width:19px; height:11px; background:url('/content/images/join/sprite-icon.png') no-repeat 0 -145px;}
+.input .validation.hidden {display:none;}
+
+
+
+.sel {
+    width: 100%;
+    height: 29px;
+    padding: 7px 8px 6px 7px\9;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    border: none;
+    border-radius: 0;
+    *height: auto;
+    *margin-top: 3px;
+    -webkit-appearance: none;
+    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+    -webkit-background-size: 20px 8px;
+}
+
+.ps_box {
+    padding: 11px 14px;
+}
+
+.bir_mm+.bir_dd, .bir_yy+.bir_mm {
+    padding-left: 10px;
+}
+.bir_dd, .bir_mm, .bir_yy {
+    display: table-cell;
+    table-layout: fixed;
+    width: 205px;
+    vertical-align: middle;
+    *display: block;
+    *float: left;
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    padding-right: 25px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+    *position: absolute;
+    *top: 0;
+    *left: 0;
+    apperance: none;
+    -webkit-apperance: none;
+}
